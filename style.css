@@ -4,7 +4,7 @@ body{
     margin: 0;
     font-family: Roboto, Sans-serif;
     flex: 1;
-    height: 100%;
+    min-height: 100vh;
 }
 
 H1{
@@ -83,7 +83,6 @@ a{
     gap: 16px;
     margin-bottom: 20px;
     align-items: center;
-    flex: 1;
 }
 
 img{
@@ -111,4 +110,47 @@ img{
 
     gap: 20px;
 
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-content{
+    font-size: 36px;
+}
+
+.quote-name{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.ad-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-container{
+    margin: 100px;
+    width: 1500px;
+    height: 180px;
+    display: flex;
+    border: 3px solid blue;
+    background-color: #3882f6;
+    border-radius: 25px;
 }
