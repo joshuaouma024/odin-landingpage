@@ -152,5 +152,24 @@ img{
     display: flex;
     border: 3px solid blue;
     background-color: #3882f6;
-    border-radius: 25px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+}
+
+.ad-button{
+    border-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1F2937;
+    padding: 50px;
 }
